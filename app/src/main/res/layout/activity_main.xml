@@ -88,7 +88,7 @@
         app:srcCompat="@mipmap/ico1" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton_buscador"
         android:layout_width="110dp"
         android:layout_height="114dp"
         android:layout_marginBottom="76dp"
@@ -121,7 +121,7 @@
         android:background="@color/colorAccent"
         android:text="Apuntes"
         android:textColor="@android:color/background_dark"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_buscador"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="parent"
