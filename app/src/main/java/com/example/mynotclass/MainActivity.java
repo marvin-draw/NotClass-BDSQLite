@@ -9,7 +9,11 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button Ir_temas;
+
+    Conexion Conn = new Conexion(this,"db Apuntes",null,1);
+
+
+    /*Button Ir_temas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,5 +28,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(Ir_temas);
             }
         });
-    }
+    }*/
 }
